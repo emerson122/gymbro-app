@@ -1,0 +1,9 @@
+{
+  "crons": [
+    { "path": "/api/cron/nutrition", "schedule": "0 2 * * *" },
+    { "path": "/api/cron/reminder?stage=1", "schedule": "0 4 * * *" },
+    { "path": "/api/cron/reminder?stage=2", "schedule": "30 4 * * *" },
+    { "path": "/api/cron/reminder?stage=3", "schedule": "0 5 * * *" },
+    { "path": "/api/cron/reminder?stage=4", "schedule": "30 5 * * *" }
+  ]
+}
